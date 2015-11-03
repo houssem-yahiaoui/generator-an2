@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AN2 | Yeoman Generator</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Scripts -->
+    <script src="../../node_modules/systemjs/dist/system.js"></script>
+    <script src="../../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script>
+        System.config({
+            packages : {'App' : {defaultExtension : 'js'}}
+        });
+        System.import('App/bootstrap');
+    </script>
+</head>
+<body class="container">
+        <div>
+              <h1 class="text-center"><b>Welcome to AN2</b></h1>
+              <br />
+              <img src="img/ngloveyo.jpg" class="cen"alt="">
+              <br />
+              <p class="text-center"><b>AN2 is a Yeoman generator, used to make the creational process of components fast and practical</b></p>
+              <br />
+              <div class="text-center"> 
+                <p><a href="" class=" btn btn-primary ">Learn more ...</a></p>
+              </div>
+        </div>
+        <div>
+            <br />
+            <h4 class="text-center"><b>Angular-2 101 - Data Binding </b></h4>
+            <my-app class="text-center">Leading ...</my-app>
+            <br />
+        </div>
+
+    <br /><br /><br /><br />
+    <footer class="footer">
+        <div class="text-center">
+            <p>Developed with <span class="heart">♥</span> by <a href="https://github.com/houssem-yahiaoui">Houssem Yahiaoui</a></p>
+        </div>
+    </footer>
+</body>
+</html>

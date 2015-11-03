@@ -1,0 +1,27 @@
+{
+  "name": "<%= appName %>",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p src/Front -w",
+    "start": "live-server --open=src/Front"
+  },
+  "author": "<%= appAuthor %>",
+  "keywords": [
+    "ES6",
+    "TypeScript",
+    "AngularJS",
+    "2"
+  ],
+  "license": "<%= appLicence %>",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.45",
+    "systemjs": "^0.19.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "live-server": "^0.8.2",
+    "typescript": "^1.6.2"
+  }
+}
