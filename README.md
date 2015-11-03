@@ -13,7 +13,7 @@ i don't know about you but this process is really teades for me personally.So an
 
 In order to have a full complete vision please check out this article.
 
-[AN2 - Starter Article](Medium Link)
+[AN2 - Starter Article](https://medium.com/@houssemyahiaoui/angularjs-2-yeoman-generator-an2-ff7f705b3f80)
 
 Or just follow the steps bellow :
 
@@ -60,14 +60,14 @@ For this matter we introduced the `cmp` sub generator, thi last will be responsi
 Using this command :
 
 ```
-$ yo an2:cmp hero 
+$ yo an2:create hero 
 ```
 
 Where :
 
 1 - an2 : is the name of the generator.
 
-2 - cmp : is yeoman way to launh the sub generator, and in our case it's called : `cmp` and the `:` is critical.
+2 - create : is yeoman way to launh the sub generator, and in our case it's called : `create` and the `:` is critical.
 
 ## Launching the Application :
 
